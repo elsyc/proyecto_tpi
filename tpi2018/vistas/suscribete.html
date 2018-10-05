@@ -48,7 +48,24 @@
                 <figcaption><a >Conectate con nosotros</a></figcaption>
         </figure>
     </footer>
-
+    <form id="form2" action="javascript:alertValues();" method="post">
+        <b>IMPORTANTE:</b> <i>Complete el siguiente formulario para suscribirse.</i>
+        <br>
+        <fieldset>
+        <legend>Información:</legend>
+        <label> Nombre: <span class="form-required" title="Este campo es obligatorio.">*</span></label>
+        <input type="text" maxlength="60" name="name" id="name" placeholder="Ingrese su nombre" size="50" required>
+        <br>
+        <label> Apellido: <span class="form-required" title="Este campo es obligatorio.">*</span></label>
+        <input type="text" maxlength="60" name="last_name" id="last_name" placeholder="Ingrese su apellido" size="50" required>
+        <br>
+        <label>Correo electrónico:<span class="form-required" title="Este campo es obligatorio.">*</span></label>
+        <input type="email" maxlength="64" name="mail" id="mail" placeholder="Ingrese su dirección de correo electrónico" size="40" required>
+        <br>
+        <br>
+        <input type="submit" name="suscribir" value="Suscribirme">
+        </fieldset>
+        </form>
 </body>
 
 </html>
