@@ -54,10 +54,10 @@
         <fieldset>
         <legend>Información:</legend>
         <label> Nombre: <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-        <input type="text" maxlength="60" name="name" id="name" placeholder="Ingrese su nombre" size="50" required>
+        <input type="text" name="name" id="name" placeholder="Ingrese su nombre" size="50" required pattern="[A-Za-z\s]{3,40}" >
         <br>
         <label> Apellido: <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-        <input type="text" maxlength="60" name="last_name" id="last_name" placeholder="Ingrese su apellido" size="50" required>
+        <input type="text" name="last_name" id="last_name" placeholder="Ingrese su apellido" size="50" required pattern="[A-Za-z\s]{3,40}">
         <br>
         <label>Correo electrónico:<span class="form-required" title="Este campo es obligatorio.">*</span></label>
         <input type="email" maxlength="64" name="mail" id="mail" placeholder="Ingrese su dirección de correo electrónico" size="40" required>
@@ -66,6 +66,7 @@
         <input type="submit" name="suscribir" value="Suscribirme">
         </fieldset>
         </form>
+
 </body>
 
 </html>
