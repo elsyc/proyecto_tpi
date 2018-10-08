@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "SoftMarshmallow";
+    src: url(../fonts/SoftMarshmallow.otf);
+}
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -84,11 +88,20 @@ header {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#38ad45', endColorstr='#333232', GradientType=1);
     border-radius: 15px 15px 0 0;
 }
-
+.titulo {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
 .ajustar {
     width: 90px;
     height: 90px;
     padding: 5px;
+}
+.caption{
+    float:right; 
+    font-size:4.5rem;
+    font-family: "SoftMarshmallow"
 }
 
 ul {
@@ -159,11 +172,51 @@ figure {
     padding: 0;
     margin: 0;
 }
+.alcenter{
+	text-align: center;
+	margin-bottom: 20px;
+}
 
 .right {
     float: right;
 }
+.carousel{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.mySlides{
+    width: 850px !important;
+    height: 360px!important;
+    position: relative;
+    display: none; 
+    margin-bottom: 15px;   
+}
 
+.vid{
+	width: 850px !important;
+    height: 360px!important;	
+}
+.content-right{
+    float: left;
+    width: 40%;
+    height: 60%;
+}
+.content-left{
+    padding: 5px;
+    margin: 0;
+    float: left;
+    width: 45%;
+    height: 65%;
+}
+.img-info{
+    width: 450px;
+    height: 250px;
+    padding: 5px;
+}
 .social {
     width: 24px;
     height: 24px;
@@ -184,7 +237,7 @@ footer {
     border-radius: 0 0 15px 15px;
 }
 
-figcaption{
+.contactanos{
     color: white;
     margin:2px;
     padding-right: 15px;
