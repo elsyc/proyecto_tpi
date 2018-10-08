@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="../css/estilosxml.css" ?>
+
+<tienda>
+<marca>ScambarShop</marca>
+<slogan>Super cojines y accesorios de calidad</slogan>
+  <scambarshop>
+        <productos>
+            <info>Recibirás información y ofertas sobre nuestros productos:</info>
+            <cojines>Cojines</cojines>
+            <llaveros>Llaveros</llaveros>
+            <tazas>Tazas</tazas>
+            <otros>Otros productos de calidad</otros>
+          </productos>
+          
+          <redes>
+              <facebook>Facebook:</facebook>
+              <fanpage>https://www.facebook.com/pg/Super-Cojines-y-Accesorios-408762742648109/about/?ref=page_internal</fanpage>
+              <google>Google+:</google>
+              <enlace>https://plus.google.com/u/1/105034437154502460924?pageId=none"</enlace>
+          </redes>
+        
+          <equipo>
+          <titulo>Equipo de desarrollo: </titulo>
+              <desarrollador id="01">
+                    <carnet>DR10025</carnet>
+                    <nombre>Lorena Astrid</nombre>
+                    <apellido>Durán Rivas</apellido>
+              </desarrollador>
+    
+              <desarrollador id="02">
+                    <carnet>CO08007</carnet>
+                    <nombre>Elsy Beatriz</nombre>
+                    <apellido>Campos Orellana</apellido>
+                </desarrollador>
+    
+              <desarrollador id="03">
+                     <carnet>GR13013</carnet>
+                     <nombre>Ámbar Marina</nombre>
+                     <apellido>Gil Rodríguez</apellido>
+              </desarrollador>
+    
+              <desarrollador id="04">
+                     <carnet>LA10006</carnet>
+                     <nombre>José Enrique</nombre>
+                     <apellido>Lara Aguilar</apellido>
+               </desarrollador>
+    
+              <desarrollador id="05">
+                    <carnet>CV11051</carnet>
+                    <nombre>Wilfredo Alexander</nombre>
+                   <apellido>Cerón Vásquez</apellido>
+              </desarrollador>
+          </equipo>
+    </scambarshop>
+</tienda>
