@@ -18,7 +18,7 @@ productos {background-color:white; display:block; margin-top: 75%; margin-left: 
 
 titulo {color: white; font-size: 130%;}
 
-info {color:blue; display:linline; font-size: 130%;}
+info {color:blue; display:inline; font-size: 130%;}
 cojines {color:black; display:list-item;  margin-left: 10%;}
 llaveros   {color:black; display:list-item;  margin-left: 10%;}
 tazas {color:black; display:list-item;  margin-left: 10%;}
