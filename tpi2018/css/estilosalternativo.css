@@ -295,6 +295,10 @@ img{
 }
 .portafolio-img{
     transition: all 0.5s;
+	width: 90%;
+    height: 95%;
+    padding: 5px;
+	margin-top:15px;
 }
 .texto-contenido{
 position: absolute;
@@ -376,13 +380,11 @@ padding: 14px 0;
 
 .contenedor{
     background: rgba(0,0,0,.6);
-    width: 98%;
-    max-width: 1050px;
-    margin: auto;
+    width: 89%;
+	max-width: 1050px;
     padding: 30px 65px;
-    margin-top: 68px;
     padding-bottom: 68px;
-    border-radius: 5px;
+    border-radius: 0 0 15px 15px;
 }
 
 .contenedor .form{
@@ -458,4 +460,6 @@ padding: 14px 0;
 .mensaje-exito a:hover{
     background: #10CC24;
 }
+
+div a img { display: none;}
 ///contacto
