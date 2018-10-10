@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /enviar.php
+Disallow: /suscribete.htmml
+Disallow: /contactanos.htmml
+
+Noindex: /enviar.php
+Noindex: /suscribete.htmml
+Noindex: /contactanos.htmml
+
+Sitemap: https://scyambarshopp.000webhostapp.com/sitemap.xml
